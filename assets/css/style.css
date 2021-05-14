@@ -637,7 +637,7 @@ a:hover {
 # Intro Section
 --------------------------------------------------------------*/
 .intro {
-  height: 100vh;
+  height: 70vh;
   position: relative;
   color: #fff;
 }
@@ -838,9 +838,6 @@ a:hover {
   background-color: #fff;
 }
 
-.work-box:hover img {
-  transform: scale(1.3);
-}
 
 .work-img {
   display: block;
