@@ -247,12 +247,10 @@ a:hover {
   border-radius: 50%;
   line-height: 1.55;
   margin: 0 auto;
-  text-align: center;
-  display: block;
 }
 
 .ico-circle_competence{
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
@@ -790,7 +788,6 @@ a:hover {
 .service-box .s-title {
   font-size: 1.4rem;
   text-transform: uppercase;
-  text-align: center;
   padding: .4rem 0;
 }
 
@@ -1372,4 +1369,8 @@ footer .credits {
 
 footer .credits a {
   color: #fff;
+}
+
+.list-inline-item{
+  font-size: 3rem;
 }
