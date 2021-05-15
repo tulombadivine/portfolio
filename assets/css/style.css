@@ -1348,6 +1348,12 @@ a:hover {
 .widget-tags ul li a {
   color: #fff;
 }
+/* -------------------------- */
+.services-inner-box{
+  padding: 15px;
+  margin-bottom: 30px;
+  min-height: 392px;
+}
 
 /*--------------------------------------------------------------
 # Footer
