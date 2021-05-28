@@ -21,10 +21,51 @@ h5,
 h6 {
   color: #1e1e1e;
 }
-
-a {
+.h5{
+  color:#689D71;
+}
+a{
   color: #1e1e1e;
   transition: all 0.5s ease-in-out;
+}
+.badge{
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  font-size: 75%;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  }
+  .badge-pill{
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+    border-radius: 10rem;
+    }
+  .figma-pill{
+    color: #ffffff;
+    background-color: #444444;
+
+  }
+  .css-pill{
+    color: #ffffff;
+    background-color: #b6a6ca;
+  }
+  .html-pill{
+    color: #ffffff;
+    background-color: #b1c1a2;
+  }
+  .wp-pill{
+    color: #ffffff;
+    background-color: #3c6e71;
+  }
+
+  .fav_project{
+    padding-left: 2px;
+  }
+
+.text-muted{
+  font-weight: bold;
 }
 
 a:hover {
