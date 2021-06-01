@@ -37,11 +37,71 @@ a{
   white-space: nowrap;
   vertical-align: baseline;
   }
+
+  .icon_modules {
+    font-size: 1.5rem;
+    color:green;
+  }
+
+  .icon_modules2 {
+    font-size: 2rem;
+    color:green;
+  }
+  .php-pill{
+    color:#ffffff;
+    background-color:#284b63;
+  }
+
   .badge-pill{
     padding-right: 0.6rem;
     padding-left: 0.6rem;
     border-radius: 10rem;
     }
+
+  .angular-pill{
+      color:#ffffff;
+      background-color:#f18f01;
+    }
+
+  .js-pill{
+      color:#ffffff;
+      background-color: 	#FFD700;
+    }
+    
+  .r-pill{
+      color:#ffffff;
+      background-color:#00BFFF;
+  }
+
+  .python-pill{
+    color:#ffffff;
+    background-color:#FA8072;
+}
+
+.sas-pill{
+  color:#ffffff;
+  background-color:#FA8072;
+}
+
+.stata-pill{
+  color:#ffffff;
+  background-color:#FA8072;
+}
+
+.mysql-pill{
+  color:#ffffff;
+  background-color:#FA8072;
+}
+
+.mongodb-pill{
+  color:#ffffff;
+  background-color:#5c415d;
+}
+
+  .node-pill{
+    color:#ffffff;
+    background-color:#8c271e;
+  }
   .figma-pill{
     color: #ffffff;
     background-color: #444444;
@@ -59,6 +119,46 @@ a{
     color: #ffffff;
     background-color: #3c6e71;
   }
+
+  /* ********************** */
+  .btn-hover-new:hover{
+    color:#ffffff;
+    background-color: #333333;
+  }
+
+  .sim-btn{
+    line-height: 50px;
+    height:50px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    cursor:pointer;
+  }
+
+  .btn-hover-new{
+    transition: all 0.5s;
+    position: relative;
+    border: 1px solid #333333;
+    overflow: hidden;
+    padding: 0px 18px;
+    display: inline-block;
+  }
+
+  .work-content .col-sm-4{
+    max-width: 100%;
+    flex:2px;
+    display: flex;
+    justify-content: start;
+  }
+
+  .services-mf .services-inner-box{
+    min-height: 392px;
+  }
+  
+  .portfolio-mf .services-inner-box{
+    min-height: 473px;
+  }
+   /* ********************** */
 
   .fav_project{
     padding-left: 2px;
@@ -169,6 +269,47 @@ a:hover {
   margin-top: 4rem;
 }
 
+/* SESSION EDUCATION */
+
+img{
+  max-width: 100%;
+}
+.education-section{
+  background-color: #fff;
+  margin:auto;
+  width:56%;
+}
+
+.amse{
+  width: 100px;
+}
+
+.pn{
+  max-width: 157px;
+  padding-top: 17px;
+}
+
+.ec{
+  max-width: 220px;
+  padding-top: 10px;
+}
+
+.amu{
+  max-width: 148px;
+  padding-top: 10px;
+}
+
+.col-l-4{
+  width:25%;
+  padding-right: 3px;
+  padding-bottom:2px;
+}
+
+.amse, .pn, .ec, .amu{
+  filter: grayscale(100%) brightness(60%) contrast(10000000%);
+  opacity: 0.3;
+}
+
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
@@ -178,7 +319,7 @@ a:hover {
 
 /*--/ Title A /--*/
 .title-box {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .title-a {
@@ -494,7 +635,7 @@ a:hover {
   padding-left: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 76ss8px) {
   .navbar-b.navbar-trans .nav-item, .navbar-b.navbar-reduce .nav-item {
     padding-left: 10px;
   }
@@ -823,7 +964,7 @@ a:hover {
 
 .service-box .ico-circle {
   transition: all 500ms ease;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .service-box .s-title {
@@ -876,7 +1017,6 @@ a:hover {
   background-color: #fff;
 }
 
-
 .work-img {
   display: block;
   overflow: hidden;
@@ -900,7 +1040,6 @@ a:hover {
 }
 
 .work-content .w-like {
-  font-size: 2.5rem;
   color: #FF4500;
   float: right;
 }
@@ -1390,11 +1529,6 @@ a:hover {
   color: #fff;
 }
 /* -------------------------- */
-.services-inner-box{
-  padding: 15px;
-  margin-bottom: 30px;
-  min-height: 392px;
-}
 
 /*--------------------------------------------------------------
 # Footer

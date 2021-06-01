@@ -40,13 +40,13 @@
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll" href="#page-top">Divine Tulomba</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
         <span></span>
       </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
+      <div class="navbar-collapse collapse justify-content-end collapsed" id="navbarDefault">
+        <ul class="navbar-nav ">
           <li class="nav-item">
             <a class="nav-link js-scroll active" href="index.html">Accueil</a>
           </li>
@@ -134,6 +134,25 @@
       </div>
     </section><!-- End About Section -->
 
+    <section id="education" class="education-section">
+      <div class="row px-3 py-2 d-flex align-items-center justify-content-center">
+        <div class="col-l-4 amse">
+          <img src="assets/img/amse.png" alt="">
+        </div>
+        <div class="col-l-4 ps pn">
+          <img src="assets/img/pn.png" alt="">
+        </div>
+        <div class="col-l-4 ec">
+          <img src="assets/img/ec.png" alt="">
+        </div>
+        <div class="col-l-4 amu">
+          <img src="assets/img/amu.png" alt="">
+        </div>
+
+      </div>
+
+    </section>
+
     <!-- ======= Services Section ======= -->
     <section id="service" class="services-mf pt-5 route">
       <div class="container">
@@ -157,9 +176,9 @@
                 <h2 class="s-title">Back-End</h2>
                 <p class="s-description">
                   <ul class="list-unstyled">
-                    <li><i class="devicon-mysql-plain-wordmark colored pr-2"></i>MYSQL</li>
-                    <li><i class="devicon-php-plain colored pr-2"></i>PHP</li>
-                    <li><i class="devicon-symfony-original-wordmark colored pr-2"></i>SYMFONY</li>
+                    <li><i class="devicon-mysql-plain-wordmark icon_modules2 color_icon pr-2"></i>MYSQL</li>
+                    <li><i class="devicon-php-plain icon_modules2 color_icon pr-2"></i>PHP</li>
+                    <li><i class="devicon-symfony-original-wordmark icon_modules2 color_icon pr-2"></i>SYMFONY</li>
 
                   </ul>
                 </p>
@@ -175,11 +194,11 @@
                 <h2 class="s-title">Front-End</h2>
                 <p class="s-description">
                   <ul class="list-unstyled">
-                    <li><i class="devicon-html5-plain-wordmark colored pr-2"></i>HTML<li>
-                    <li><i class="devicon-css3-plain colored pr-2"></i>CSS<li>
-                    <li><i class="devicon-javascript-plain colored pr-2"></i>JAVASCRIPT</li>
-                    <li><i class="devicon-bootstrap-plain-wordmark colored pr-2"></i>BOOTSTRAP</li>
-                    <li><i class="devicon-wordpress-plain-wordmark colored pr-2"></i>WORDPRESS</li>
+                    <li><i class="devicon-html5-plain-wordmark icon_modules color_icon pr-2"></i>HTML<li>
+                    <li><i class="devicon-css3-plain icon_modules color_icon pr-2"></i>CSS<li>
+                    <li><i class="devicon-javascript-plain icon_modules color_icon pr-2"></i>JAVASCRIPT</li>
+                    <li><i class="devicon-bootstrap-plain-wordmark icon_modules color_icon pr-2"></i>BOOTSTRAP</li>
+                    <li><i class="devicon-wordpress-plain-wordmark icon_modules color_icon pr-2"></i>WORDPRESS</li>
                   </ul>
                 </p>
               </div>
@@ -194,9 +213,9 @@
                 <h2 class="s-title">Design</h2>
                 <p class="s-description ">
                   <ul class=" list-unstyled">
-                    <li><i class="devicon-figma-plain colored pr-2"></i>FIGMA</li>
-                    <li><i class="fas fa-paint-brush pr-2"></i>UI/UX</li>
-                    <li><i class="devicon-photoshop-plain tech-logo pr-2"></i>PHOTOPEA</li>
+                    <li><i class="devicon-figma-plain icon_modules color_icon pr-2"></i>FIGMA</li>
+                    <li><i class="fas fa-paint-brush icon_modules color_icon pr-2"></i>UI/UX</li>
+                    <li><i class="devicon-photoshop-plain icon_modules color_icon tech-logo pr-2"></i>PHOTOPEA</li>
                   </ul>
                 </p>
               </div>
@@ -211,10 +230,10 @@
                 <h2 class="s-title">Gestion de projet</h2>
                 <p class="s-description">
                   <ul class="list-unstyled">
-                    <li><i class="fas fa-tasks tech-logo pr-2" aria-hidden="true"></i></i>SCRUM</li>
-                    <li><i class="devicon-git-plain tech-logo pr-2"></i>GIT</li>
-                    <li><i class="devicon-github-plain tech-logo pr-2"></i>GITHUB</li>
-                    <li><i class="devicon-trello-plain tech-logo pr-2"></i>TRELLO</li>
+                    <li><i class="fas fa-tasks tech-logo icon_modules color_icon pr-2" aria-hidden="true"></i></i>SCRUM</li>
+                    <li><i class="devicon-git-plain tech-logo icon_modules color_icon pr-2"></i>GIT</li>
+                    <li><i class="devicon-github-plain tech-logo icon_modules color_icon pr-2"></i>GITHUB</li>
+                    <li><i class="devicon-trello-plain tech-logo icon_modules color_icon pr-2"></i>TRELLO</li>
                   </ul>
                 </p>
               </div>
@@ -288,6 +307,7 @@
             </div>
           </div>
         </div>
+        <h4 class="text-center mb-2 mt-0">PROJETS DEVELOPPEUSE WEB</h4>
         <div class="row">
           <div class="col-md-4">
             <div class="work-box services-inner-box">
@@ -301,15 +321,23 @@
                 <div class="row">
                   <div class="col-sm-8">
                     <h2 class="w-title">Stage chez KMS</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Développeuse back-end</span> / <br> <span class="w-date">Mars-Avril 2021</span>
-                    </div>
+                    <ul class="list-unstyled d-flex">
+                      <li class="fav_project"><span class="badge badge-pill php-pill">PHP</span></li>
+                      <li class="fav_project"><span class="badge badge-pill mysql-pill">MYSQL</span></li>
+                      <li class="fav_project"><span class="badge badge-pill js-pill">JAVASCRIPT</span></li>
+                  </ul>
+                  <ul class="list-unstyled d-flex">
+                    <li class="fav_project"><span class="badge badge-pill wp-pill">WordPress</span></li>
+                    <li class="fav_project"><span class="badge badge-pill css-pill">CSS</span></li>
+                    <li class="fav_project"><span class="badge badge-pill html-pill">HTML</span></li>
+                </ul>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <a  class="sim-btn btn-hover-new mt-2 rounded-pill" href="" target="_blank">Le projet</a>
                   </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a > <span class="ion-ios-plus-outline"></span></a>
-                    </div>
+                </div>
                   </div>
+
                 </div>
               </div>
             </div>
@@ -323,19 +351,17 @@
               </a>
               <div class="work-content">
                 <div class="row">
-                  <div class="col-sm-8">
+                  <div class="col-sm-12">
                     <h2 class="w-title">Projet avec WordPress</h2>
                     <ul class="list-unstyled d-flex">
                         <li class="fav_project"><span class="badge badge-pill wp-pill">WordPress</span></li>
                         <li class="fav_project"><span class="badge badge-pill css-pill">CSS</span></li>
                     </ul>
-                    <div class="w-more">
-                      <span class="w-ctegory">Afrimiams</span> / <br> <span class="w-date">Février 2021</span>
-                    </div>
+                    
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="https://dev-afrimiams.pantheonsite.io/" target="_blank"> <span class="ion-ios-plus-outline"></span></a>
+                      <a class="sim-btn btn-hover-new mt-5 rounded-pill" href="https://dev-afrimiams.pantheonsite.io/" target="_blank">Voir le projet</a>
                     </div>
                   </div>
                 </div>
@@ -351,18 +377,16 @@
               </a>
               <div class="work-content">
                 <div class="row">
-                  <div class="col-sm-8">
+                  <div class="col-sm-12">
                     <h2 class="w-title">Design d'application</h2>
                     <ul class="list-unstyled">
                         <li><span class="badge badge-pill figma-pill">Figma</span></li>
                     </ul>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <br> <span class="w-date">Déc 2020-Février 2021</span>
-                    </div>
+                    
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                      <a  class="sim-btn btn-hover-new mt-5 rounded-pill" href="portfolio-details.html">Voir le projet</a>
                     </div>
                   </div>
                 </div>
@@ -378,26 +402,29 @@
               </a>
               <div class="work-content">
                 <div class="row">
-                  <div class="col-sm-8">
+                  <div class="col-sm-12">
                     <h2 class="w-title">Page d'accueil site e-commerce</h2>
                     <ul class="list-unstyled d-flex pr-3">
                           <li class="fav_project"><span class="badge badge-pill html-pill">HTML</span></li>
                           <li class="fav_project"><span class="badge badge-pill css-pill">CSS</span></li>
                           <li class="fav_project"><span class="badge badge-pill figma-pill">Figma</span></li>
                     </ul>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <br> <span class="w-date">Déc 2020-Février 2021</span>
-                    </div>
+                   
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                      <a  class="sim-btn btn-hover-new mt-4 rounded-pill" href="portfolio-details.html">Voir le projet</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+        </div>
+        <h4 class="text-center mb-2">PROJETS ÉCONOMÉTRIQUES, MACHINE LEARNING</h4>
+        <div class="row">
+         
           <div class="col-md-4">
             <div class="work-box services-inner-box">
               <a href="assets/img/machine_learning.jpg" data-gall="portfolioGallery" class="venobox">
@@ -407,15 +434,15 @@
               </a>
               <div class="work-content">
                 <div class="row">
-                  <div class="col-sm-8">
+                  <div class="col-sm-12">
                     <h2 class="w-title">Les déterminants en mathématiques d'un étudiant</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">data analyst</span> / <span class="w-date">Janv 2020</span>
-                    </div>
+                    <ul class="list-unstyled d-flex">
+                      <li class="fav_project"><span class="badge badge-pill r-pill">R</span></li>
+                  </ul>
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="uploads/pdf/tulomba_projet.pdf" target="_blank"> <span class="ion-ios-plus-outline"></span></a>
+                      <a  class="sim-btn btn-hover-new mt-1 rounded-pill" href="uploads/pdf/tulomba_projet.pdf" target="_blank">Voir le projet</a>
                     </div>
                   </div>
                 </div>
@@ -431,15 +458,15 @@
               </a>
               <div class="work-content">
                 <div class="row">
-                  <div class="col-sm-8">
+                  <div class="col-sm-12">
                     <h2 class="w-title">Stage data analyst Chez INRAE</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Stage data analyst</span> / <span class="w-date">avril-septembre 2020</span>
-                    </div>
+                    <ul class="list-unstyled d-flex">
+                      <li class="fav_project"><span class="badge badge-pill r-pill">R</span></li>
+                  </ul>
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="uploads/pdf/Rapport_de_stage_Divine_Tulomba.pdf" target="_blank"> <span class="ion-ios-plus-outline"></span></a>
+                      <a  class="sim-btn btn-hover-new mt-4 rounded-pill" href="uploads/pdf/Rapport_de_stage_Divine_Tulomba.pdf" target="_blank">Voir le projet</a>
                     </div>
                   </div>
                 </div>
@@ -455,15 +482,15 @@
               </a>
               <div class="work-content">
                 <div class="row">
-                  <div class="col-sm-8">
+                  <div class="col-sm-12">
                     <h2 class="w-title">Challenge kaggle Covid-19 </h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">data scientist</span> / <span class="w-date">avril 2020</span>
-                    </div>
+                    <ul class="list-unstyled d-flex">
+                      <li class="fav_project"><span class="badge badge-pill python-pill">PYTHON</span></li>
+                  </ul>
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="https://www.kaggle.com/allen.../CORD-19-research-challenge" target="_blank"> <span class="ion-ios-plus-outline"></span></a>
+                      <a class="sim-btn btn-hover-new mt-4 rounded-pill" href="https://www.kaggle.com/allen.../CORD-19-research-challenge" target="_blank">Voir le projet</a>
                     </div>
                   </div>
                 </div>
