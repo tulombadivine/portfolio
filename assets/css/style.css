@@ -67,7 +67,7 @@ a{
       color:#ffffff;
       background-color: 	#FFD700;
     }
-    
+
   .r-pill{
       color:#ffffff;
       background-color:#00BFFF;
@@ -152,9 +152,9 @@ a{
   }
 
   .services-mf .services-inner-box{
-    min-height: 392px;
+    min-height: 400px;
   }
-  
+
   .portfolio-mf .services-inner-box{
     min-height: 473px;
   }
@@ -635,7 +635,7 @@ img{
   padding-left: 0;
 }
 
-@media (min-width: 76ss8px) {
+@media (min-width: 768px) {
   .navbar-b.navbar-trans .nav-item, .navbar-b.navbar-reduce .nav-item {
     padding-left: 10px;
   }
@@ -726,6 +726,9 @@ img{
 .navbar-b.navbar-reduce .navbar-brand {
   color: #FF4500;
 }
+.navbar-brand{
+   margin-right: 10rem;
+}
 
 .navbar-b.navbar-reduce .navbar-toggler span {
   background-color: #1B1B1B;
@@ -813,6 +816,14 @@ img{
   opacity: 0.9;
 }
 
+.navbar-toggler{
+  font-size: 2rem;
+  color: black;
+}
+
+.navbar-expand-md .navbar-toggler{
+  display: block;
+}
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
